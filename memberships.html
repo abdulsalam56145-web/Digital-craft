@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Products — Memberships</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f7f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #764ba2;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .membership-plans {
+            margin-top: 40px;
+        }
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .plan {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .plan.basic {
+            background-color: lightgray;
+        }
+        .plan.premium {
+            background-color: yellow;
+        }
+        .plan.pro {
+            background-color: lightgreen;
+        }
+        .plan h3 {
+            margin-top: 0;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+        .plan ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .plan li {
+            margin: 10px 0;
+        }
+        .plan button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .plan button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Memberships</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ebooks.html">E-Books</a>
+            <a href="online-courses.html">Online Courses</a>
+            <a href="software-tools.html">Software & Tools</a>
+            <a href="digital-downloads.html">Digital Downloads</a>
+            <a href="graphics-design.html">Graphics & Design</a>
+            <a href="music-audio.html">Music & Audio</a>
+            <a href="photography.html">Photography</a>
+            <a href="video-content.html">Video Content</a>
+            <a href="coding-tech.html">Coding & Tech</a>
+            <a href="memberships.html">Memberships</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Memberships</h2>
+            <p>Explore our collection of memberships including subscription access and premium communities.</p>
+        </section>
+
+        <section class="membership-plans">
+            <h2>Choose Your Membership Plan</h2>
+            <div class="plans">
+                <div class="plan basic">
+                    <h3>Basic Plan</h3>
+                    <p class="price">$9.99/month</p>
+                    <ul>
+                        <li>Access to basic digital products</li>
+                        <li>Community forum access</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button>Sign Up</button>
+                </div>
+                <div class="plan premium">
+                    <h3>Premium Plan</h3>
+                    <p class="price">$19.99/month</p>
+                    <ul>
+                        <li>All Basic features</li>
+                        <li>Exclusive premium content</li>
+                        <li>Priority support</li>
+                        <li>Monthly webinars</li>
+                    </ul>
+                    <button>Sign Up</button>
+                </div>
+                <div class="plan pro">
+                    <h3>Pro Plan</h3>
+                    <p class="price">$29.99/month</p>
+                    <ul>
+                        <li>All Premium features</li>
+                        <li>Unlimited downloads</li>
+                        <li>One-on-one coaching</li>
+                        <li>Custom requests</li>
+                    </ul>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; Digital Products</small>
+    </footer>
+</body>
+
+</html>

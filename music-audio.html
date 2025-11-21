@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Products — Music & Audio</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background :linear-gradient(135deg, #667eea 0%, #764ba2 100% );
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .hero img{
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
+        }
+        nav {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color:#764ba2;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+            gap:30px;
+            padding: 15px;
+            background-color: white;
+
+        }
+        .card{
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgb(0,0,0,0.1);
+            overflow:hidden
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        nav a[href="memberships.html"] {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Music & Audio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ebooks.html">E-Books</a>
+            <a href="online-courses.html">Online Courses</a>
+            <a href="software-tools.html">Software & Tools</a>
+            <a href="digital-downloads.html">Digital Downloads</a>
+            <a href="graphics-design.html">Graphics & Design</a>
+            <a href="music-audio.html">Music & Audio</a>
+            <a href="photography.html">Photography</a>
+            <a href="video-content.html">Video Content</a>
+            <a href="coding-tech.html">Coding & Tech</a>
+            <a href="memberships.html">Memberships</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_16_9_1200x675/public/field_blog_entry_teaser_image/2022-11/instruments.jpg?itok=rw5Jn-Y5">
+        </section>
+        <section>
+            <h2>Music & Audio</h2>
+            <p>Explore our collection of music and audio including tracks, background music, sound effects, and audiobooks.</p>
+        </section>
+        <section style="margin-top: 18px;">
+            <h2>Category</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/Nvn-AMhnZbc/maxresdefault.jpg">
+                    <h3>Music And Audio </h3>
+                    <p>It is collection of songs based on a theme, artist, or mood</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.shutterstock.com/image-vector/music-mobile-app-screens-set-260nw-2296219153.jpg">
+                    <h3>Tracks</h3>
+                    <p>A music track can be its mood, such as "haunting" or "explosive," or by its musical elements, like "a thin texture" or "short, sharp rhythm"</p>
+                </div>
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-vector/hand-drawn-music-original-collection-with-musical-instrument-yellow-background_98292-10015.jpg">
+                    <h3> Background Music</h3>
+                    <p>a curated selection of unobtrusive audio designed to subtly enhance the mood, atmosphere, or context of a particular environment or media content</p>
+                </div>
+                <div class="card">
+                    <img src="https://hello.prosoundeffects.com/hs-fs/hubfs/sound-effects-library-artwork_mosaic2.png?width=557&height=371&name=sound-effects-library-artwork_mosaic2.png">
+                    <h3>Sound Effects</h3>
+                    <p>library of artificially created or enhanced sounds used to add depth, texture, and realism to media like films, television, and video games</p>
+                </div>
+                <div class="card">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/quarantine-audiobooks-1589556786.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*">
+                    <h3>Audiobooks</h3>
+                    <p>library of sound recordings of books being read aloud, available for listening on various digital devices.</p>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; Digital Products</small>
+    </footer>
+</body>
+
+</html>

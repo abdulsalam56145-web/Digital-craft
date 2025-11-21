@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Products — Online Courses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        div {
+            background-color: #fff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        div a {
+            color: #667eea;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        div a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        div a[href="memberships.html"] {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Online Courses</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="ebooks.html">E-Books</a>
+            <a href="online-courses.html">Online Courses</a>
+            <a href="software-tools.html">Software & Tools</a>
+            <a href="digital-downloads.html">Digital Downloads</a>
+            <a href="graphics-design.html">Graphics & Design</a>
+            <a href="music-audio.html">Music & Audio</a>
+            <a href="photography.html">Photography</a>
+            <a href="video-content.html">Video Content</a>
+            <a href="coding-tech.html">Coding & Tech</a>
+            <a href="memberships.html">Memberships</a>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="https://images01.nicepagecdn.com/page/27/32/website-template-preview-273212.jpg" alt="Online Courses">
+        </section>
+        <section>
+            <h2>Online Courses</h2>
+            <p>Explore our collection of online courses including video and certificate courses, skill training. Learn from industry experts and gain valuable certifications.</p>
+            <p>Our courses are designed for all levels, from beginners to advanced learners, covering a wide range of topics to help you advance your career.</p>
+        </section>
+
+        <section style="margin-top:40px">
+            <h2>Featured Courses</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop" alt="Web Development Bootcamp">
+                    <h3>Complete Web Development Bootcamp</h3>
+                    <p>Learn HTML, CSS, JavaScript, and modern frameworks. Build real projects and get job-ready skills.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=300&h=200&fit=crop" alt="Data Science with Python">
+                    <h3>Data Science with Python</h3>
+                    <p>Master data analysis, visualization, and machine learning using Python and popular libraries.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=200&fit=crop" alt="Digital Marketing Mastery">
+                    <h3>Digital Marketing Mastery</h3>
+                    <p>Comprehensive course covering SEO, social media, PPC advertising, and content marketing strategies.</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.mindinventory.com/blog/wp-content/uploads/2023/11/difference-between-ui-ux.webp" alt="UX/UI Design Fundamentals">
+                    <h3>UX/UI Design Fundamentals</h3>
+                    <p>Learn user-centered design principles, prototyping, and create stunning user interfaces.</p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5qgROIp60pQtN3O7Qq2DHhdS7S7-kbtwBg&s" alt="quiz">
+                    <h3>Online quizzes</h3>
+                    <p>a short test or series of questions designed to assess knowledge, skills, or personality</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="https://png.pngtree.com/png-clipart/20230925/original/pngtree-online-discussion-board-concept-icon-internet-discussion-communication-vector-png-image_12682618.png" alt="discussion boards">
+                    <h3>Discussion boards</h3>
+                    <p>an online communication platform where you post messages and exchange ideas in a structured </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; Digital Products</small>
+    </footer>
+</body>
+
+</html>
