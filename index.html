@@ -233,10 +233,19 @@
     <footer>
         <small>&copy; Digital Products</small>
     </footer>
+    <script>
+        let user = localStorage.getItem("user");
+
+        if(!user) {
+            alert("Please login first");
+            window.location.href = "login.html";
+        }
+    </script>
 </body>
 
 
 </html>
+
 
 
 
