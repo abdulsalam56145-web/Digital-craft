@@ -109,13 +109,13 @@
         </section>
        <form action="index.html">
           <div class="form-group">
-            <input type="email" placeholder="Email or phone number" required>
+            <input type="email" id="loginEmail" placeholder="Email or phone number" required>
           </div>
           <div class="form-group">
-            <input type="password" placeholder="Password" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
           </div>
 
-          <button type="submit" class="sign-in-btn">Sign In</button>
+          <button onclick="login()">Login</button>
 
           <div class="remember-me">
             <label>
@@ -125,10 +125,31 @@
          </div>
        </form>
         <div class="signup-link">
-            New to DIGI? <a href="#">Sign up now</a>.
+            New to DIGI? <a href="singup.html">Sign up now</a>.
         </div>
     </div>
+    <script>
+    function login(){
+        let email = document.getElementById("loginEmail").value;
+        let password = document.getElementById("loginPassword").value;
+
+        let storedUser = JSON.parse(localStorage.getItem("user"));
+
+        if(storedUser == null) {
+             alert("No user found. Please signup first.");
+             return;
+        }
+
+        if(email === storedUser.email && password === storedUser.password) {
+            alert("Login successful!");
+            window.location.href = "index.html";
+        } else {
+            alert("Invalid email or password");
+        }
+   }
+    </script>
 </body>
 </html>
+
 
 
